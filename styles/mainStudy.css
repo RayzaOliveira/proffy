@@ -84,3 +84,33 @@ color: var(--color-text-base);
   width: 90vw;
   max-width: 700px;
 }
+
+
+/* Anotações : 
+
+font-size: 40%; , modificar as medidas do rem
+text-align: center; , os textos devem ficar alinhados ao centro do container(pai)
+
+//display: flex; e justify-content: center; , so funcionam juntos, um depoende do outro
+display: flex; , coloca texto e imagens um ao lado do outro 
+justify-content: center; , coloca tudo ao centro da tela 
+
+border-radius: 0.8rem; , aredondamento das bordas da caixa
+
+margin-right: 1.6rem; , deu uma separada nos botões
+
+//havia um item na linha de cima e outro na linha d baixo, dai os dois ficou na msm linha 
+align-items:center;
+justify-content:center;
+
+
+text-decoration:none; ,   tira linha abaixo do link
+transition: background 0.2s ; , aplicando o hover, fundo e tempo 
+margin-right: 2.4rem; , separar imagem do texto no botão 
+
+//efeito para qdo o mouse passar no botão
+.buttons-container a.study:hover {
+background: var(--color-primary-light);
+
+//para tirar o margin-right: 1.6rem; do segundo botão
+margin-right: 0; */

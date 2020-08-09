@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+  <html lang="pt_br">  
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P2SCJZK');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Proffy | Sua plataforma de estudos online</title>
+
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/partials/page-study.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body id="page-study">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2SCJZK"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="container">
+    <header class="page-header">
+      <div class="top-bar-container">
+        <a href="/">
+        <img src="/images/icons/back.svg" alt="Voltar">
+        </a>
+        <img src="/images/logo.svg" alt="Proffy">
+      </div>
+
+      <div class="header-content">
+        <strong>Esses são os proffys disponíveis</strong>
+        <form id="search-teachers">
+          
+          <div class="select-block">
+            <!-- Label: descrição do campo do formulario -->
+            <label for="subject">Matéria</label>
+            <select name="subject" id="subject">
+                <option value="" disabled="" hidden="">Selecione uma opção</option>
+                <option value="1">Artes</option>
+                <option value="2">Biologia</option>
+                <option value="3">Ciências</option>
+                <option value="4">Educação física</option>
+                <option value="5">Física</option>
+                <option value="6">Geografia</option>
+                <option value="7">História</option>
+                <option value="8">Matemática</option>
+                <option value="9">Português</option>
+                <option value="10">Química</option>
+            </select>
+          </div>
+
+        <div class="select-block">
+          <label for="weekday">Dia da semana</label>
+          <select name="weekday" id="weekday">
+              <option value="" disabled="" hidden="">Selecione uma opção</option>
+              <option value="0">Domingo</option>
+              <option value="1">Segunda-feira</option>
+              <option value="2">Terça-feira</option>
+              <option value="3">Quarta-feira</option>
+              <option value="4">Quinta-feira</option>
+              <option value="5">Sexta-feira</option>
+              <option value="6">Sábado</option>
+          </select>
+        </div>
+
+        <div class="input-block">
+            <label for="time">Hora</label>
+
+            <!-- para colocar as horas -->
+            <input name="time" id="time" type="time" >
+        </div>
+
+        <!-- submit, ele vai enviar o formulário -->
+        <button type="submit">Filtrar</button>
+
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <!-- <article>, vai se repetir várias veses -->
+      <article class="teacher-item">
+        <header>
+            <img 
+                src="https://avatars3.githubusercontent.com/u/52584988?s=460&u=14c81c8422cf9f544505c1cff8fcd0c82b053b7d&v=4" 
+                alt="Rayza Oliveira">
+            <div>
+                <strong>Rayza Oliveira</strong>
+                <span>Front-End Developer</span>
+            </div>
+        </header>
+    
+        <p>Entusiasta das melhores tecnologias em Front-End.<br><br>Apaixonada por expandir conhecimento e por mudar a vida das pessoas através da tecnologia. Mais de 200.000 pessoas já passaram por uma de suas experiências incríveis.</p>
+    
+        <footer>
+            <p>Preço/hora<strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+                <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+            </button>
+        </footer>
+      </article>
+
+      <article class="teacher-item">
+        <header>
+            <img 
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQG28IBgcZeE0w/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=-kLlQo-hR4BrNKgiGrSykFRAFWBKGeGzB-ME9mbaUsk" 
+                alt="Ilda Neta">
+            <div>
+                <strong>Ilda Neta</strong>
+                <span>Software Developer</span>
+            </div>
+        </header>
+    
+        <p> Uma brilhante e experiênte desonvolvedora de software.<br><br>Sempre empenhada e dar o melhor e trazer experiências incríveis em seus projetos. Mais de 200.000 pessoas tiveram a opotunidade de participar de um de suas suas palestras.</p>
+    
+        <footer>
+            <p>Preço/hora<strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+                <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+            </button>
+        </footer>
+      </article>
+      
+      <article class="teacher-item">
+        <header>
+            <img 
+                src="https://avatars3.githubusercontent.com/u/29044736?s=460&u=e46b41d507610dce38d03e20822607f5a491182b&v=4" 
+                alt="Vitor Rios">
+            <div>
+                <strong>Vitor Rios</strong>
+                <span>Web Developer</span>
+            </div>
+        </header>
+    
+        <p>Sempre ligado nas melhores tecnológias Web.<br><br>Apaixonado por criar e enfrentar um novo desafio. Mais de 200.000 pessoas já puderam apreciar seu talento.</p>
+    
+        <footer>
+            <p>Preço/hora<strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+                <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+            </button>
+        </footer>
+      </article>
+
+      <article class="teacher-item">
+        <header>
+            <img 
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQEdKlxoArGaSQ/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=Y9LpInVgpH26eb6et3FQtQa7gdMIQZxVkwk-IBQYu5Y" 
+                alt="Ricardo Barbosa">
+            <div>
+                <strong>Ricardo Barbosa</strong>
+                <span>Mobile Developer</span>
+            </div>
+        </header>
+    
+        <p>Um animado e talentoso Mobile Developer.<br><br> Sempre ligado nas tecnologias de ponta e levando o melhor da programação em seu trabalho. Mais de 200.000 pessoas já passaram por um de seus projetos. </p>
+    
+        <footer>
+            <p>Preço/hora<strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+                <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+            </button>
+        </footer>
+      </article>
+    </main>
+  </div>
+
+</body>
+</html>

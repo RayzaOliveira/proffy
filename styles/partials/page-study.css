@@ -6,50 +6,7 @@
   height: 100vh;
 }
 
-/* <header class="page-header"> */
-.page-header {
-  background-color: var(--color-primary);
-
-  display: flex;
-  flex-direction: column;
-}
-
-/* <header class="page-header"> , <div class="top-bar-container"> */
-.page-header .top-bar-container {
-  width: 90%;
-  margin: 0 auto;
-
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-
-  padding: 1.6rem 0;
-}
-
-/* <header class="page-header"> , <div class="top-bar-container"> , <a href="/"> */
-.page-header .top-bar-container a {
-  height: 3.2rem;
-  transition: opacity 0.2s;
-}
-
-/* <header class="page-header"> , <div class="top-bar-container"> , <img src="/images/logo.svg" alt="Proffy"> */
-.page-header .top-bar-container img {
-  height: 1.6rem;
-}
-
-/* <div class="header-content"> */
-.page-header .header-content {
-  width:90%;
-  margin: 3.2rem auto;
-
-  position: relative; /* desktop*/
-}
-
-.page-header .header-content strong {
-  font: 700 3.6rem Archivo;
-  line-height: 4.2rem;
-  color: var(--color-title-in-primary);
-}
+/* header foi tirado */
 
 /* <form id="search-teachers"> */
 #search-teachers {
@@ -88,39 +45,7 @@
   background-color: var(--color-secondary-dark);
 }
 
-/* <div class="select-block"> , <div class="input-block"> */
-.select-block label,
-.input-block label {
-  font-size: 1.4rem;
-  color: var(--color-text-complement);
-}
-
-/* <input name="time" id="time" type="time" > */
-.input-block input,
-.select-block select {
-  width: 100%;
-  height: 5.6rem;
-  margin-top: 0.8rem;
-  border-radius: 0.8rem;
-  background: var(--color-input-background);
-  border: 1px solid var(--color-line-in-white);
-  outline:0;
-  padding: 0 1.6rem;
-  font: 1.5rem Archivo;
-}
-
-/* mostra campo e evidencia qdo for clicado */
-.imput-block:focus-within::afther {
-  content: ""; /* é fack mais é obrigatório ter*/
-
-  width: calc(100% - 3.2rem);
-  height: 2px;
-  background: var(--color-primary-ligth);
-
-  position: absolute;
-  left: 1.6rem;
-  bottom: 0px;
-}
+/* Retirou o fomrulário */
 
 #page-study main {
   margin: 3.2rem auto;
